@@ -7,16 +7,16 @@ int main() {
 	SetConsoleCP(1251);
 
 	float number;
-	cout << "Ââåä³òü ÷èñëî:";
+	cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾:";
 	cin >> number;
 
 	if (number > 0) {
-		cout << "×èñëî ïîçèòèâíå" << endl;
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð¿Ð¾Ð·Ð¸Ñ‚Ð¸Ð²Ð½Ðµ" << endl;
 	}
 	else if (number < 0) {
-		cout << "×èñëî íåãàòèâíå" << endl;
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð½ÐµÐ³Ð°Ñ‚Ð¸Ð²Ð½Ðµ" << endl;
 	}
 	else {
-		cout << "×èñëî äîð³âíþº íóëþ" << endl;
+		cout << "Ð§Ð¸ÑÐ»Ð¾ Ð´Ð¾Ñ€Ñ–Ð²Ð½ÑŽÑ” Ð½ÑƒÐ»ÑŽ" << endl;
 	}
 }
